@@ -10,19 +10,17 @@ def hello():
 def age():
     print('Jak se jmenuješ?')
     name = input()
-    print('Kolik ti je let?')
-    age = int(input())
+    age = int(input('Kolik ti je let?')) # fuce input má možnost rovnou vypsat text
     print('Je ti:', age)
 
 
 # čtení textu
-print('Napiš text:')
+print('Napiš text:', end=' ')
 text = input()
 print("Tvůj text:", text, end='\n\n')
 
 
 # čtení čísla
-print('Napiš číslo:')
-num = int(input())
+num = int(input('Napiš číslo: ')) # lze text vložit přimo do input
 print("Tvoje číslo:", num)
 
