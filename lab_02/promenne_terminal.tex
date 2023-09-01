@@ -4,6 +4,7 @@
 % packages ----------------------------------------%
 
 
+\usepackage[utf8]{inputenc}
 
 %--------------------------------------------------%
 
@@ -21,8 +22,70 @@
 
 \begin{frame}[t]{Terminál}
 
+\begin{itemize}
+	\item terminál se používá na základní vstup a výstup
+\end{itemize}
+
+\vspace{0.3cm}
+\begin{center}
+\includegraphics[scale=0.15]{../../../Pictures/Screenshots/terminal.png} 
+\end{center}
 
 \end{frame}
+
+\begin{frame}[t]{Terminál}
+\begin{itemize}
+	\item terminál se používá na základní vstup a výstup
+	
+	\item vypsat text, čísla,... lze funkcí \textsf{print()}
+	
+	\item přečíst vstup z terminálu lze \textsf{input()}
+	
+	\pause
+	
+	\item Do fce \textsf{input()} lze přímo napsat otázku -- \textsf{input("Kolik ti je let?")}
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}[t]{Zkratky v terminálu}
+
+\begin{itemize}
+	\item python3 \{jméno\_programu\} -- spuštění programu
+	
+	\item $CTRL + C$ -- ukončení programu 'silou'
+	
+	\item $CTRL + L$ -- vyčištění terminálu
+\end{itemize}
+
+\end{frame}
+
+
+
+\begin{frame}[t]{Typy vstupu}
+
+\begin{itemize}
+	\item \textsf{int(input())} -- náš vstup je číslo
+	
+	\item \textsf{input()} -- náš vstup je text 
+	
+	\pause	
+	
+	\begin{block}{Upozornění}
+	S textem nelze provádět matematické operace, například $2 + 2$, $3 \cdot 4$.
+	\end{block}
+\end{itemize}
+
+\vspace{0.3cm}
+
+\begin{example}[Sčítání a násobení]
+Vytvořte dva programy. Oba si postupně načtou dvě čísla a vrátí jejich součet/součin.
+
+\end{example}
+
+
+\end{frame}
+
 
 
 
