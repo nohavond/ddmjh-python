@@ -1,0 +1,89 @@
+\documentclass{beamer}
+\usetheme{Boadilla}
+
+% packages ----------------------------------------%
+\usepackage{graphicx}
+\usepackage{tikz}
+%--------------------------------------------------%
+
+\title{Programování v jazyku Python}
+\subtitle{Úvod do Gitu}
+\author{Ondřej Nohava}
+\institute[DDMJH]{Dům dětí a mládeže Jindřichův Hradec}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}[t]{Github}
+
+
+
+\begin{itemize}
+	\item Github je UI pro Git
+	
+	\item zadarmo, stačí založit účet
+	
+	\item spousta výhod: záloha kódu, možnost sdílení kódu, spolupráce,...
+\end{itemize}
+
+\begin{tikzpicture}[remember picture, overlay]
+\node[] at (current page.40) 
+{
+    \includegraphics[scale=0.6]{../../../Pictures/github-mark.png}
+};
+\end{tikzpicture}
+
+
+\end{frame}
+
+
+
+\begin{frame}[t]{Založení repozitáře}
+
+	Repozitář -- místo pro náš projekt
+	
+	
+	\vspace{0.3cm}	
+	Postup při vytváření projektu:
+\begin{enumerate}
+
+	\item vytvoříme repozitář na githubu
+	
+	\item otevřeme si vscode, tam kde chceme repozitář zkopírovat
+	
+	\item pomocí terminálu vytvoříme repozitář v pc (git clone)
+
+\end{enumerate}	
+\end{frame}
+
+\begin{frame}[t]{Práce s repozitářem}
+
+\begin{block}{Užitečné příkazy}
+
+\begin{itemize}
+
+	\item git clone URL-Repozitáře -- vytvoří repozitář u nás na PC
+	
+	\item git add \{jméno\_souboru\} -- přidá soubor k poslání na Git
+	
+	\item git commit -m"Zpráva k přidaným souborům" -- přidá zprávu k souborům
+	
+	\item git push -- nahraje soubory na Git
+
+
+\end{itemize}
+\end{block}
+
+\pause 
+
+Při přidání každého souboru je nutný git add, commit a push v tomhle pořadí!
+
+
+\end{frame}
+
+
+\end{document}
